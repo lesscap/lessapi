@@ -1,0 +1,20 @@
+{
+  "name": "lessapi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon lib/index.js"
+  },
+  "description": "https://api.lesscap.com",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.13.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "bencode@163.com",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
